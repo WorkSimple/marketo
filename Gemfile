@@ -1,4 +1,5 @@
 source "http://rubygems.org"
+gem 'soap4r', '~>1.5.8', :require => false
 # Add dependencies required to use your gem here.
 # Example:
 #   gem "activesupport", ">= 2.3.5"
