@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "marketo"
   gem.homepage = "http://github.com/ehedberg/marketo"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{SOAP client for marketo}
+  gem.description = %Q{You probably do not want to use this yet}
   gem.email = "eric@getworksimple.com"
   gem.authors = ["Eric Hedberg"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
