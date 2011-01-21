@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{marketo}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Eric Hedberg"]
   s.date = %q{2011-01-21}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{You probably do not want to use this yet}
   s.email = %q{eric@getworksimple.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
@@ -29,6 +30,7 @@ Gem::Specification.new do |s|
     "lib/mktowsDriver.rb",
     "lib/mktowsMappingRegistry.rb",
     "lib/mktows_1_2.wsdl",
+    "marketo.gemspec",
     "test/helper.rb",
     "test/test_marketo.rb"
   ]
@@ -36,7 +38,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.4.2}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{SOAP client for marketo}
   s.test_files = [
     "test/helper.rb",
     "test/test_marketo.rb"
