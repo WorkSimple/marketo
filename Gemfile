@@ -1,5 +1,5 @@
 source "http://rubygems.org"
-gem 'soap4r', '~>1.5.8', :require => false
+gem 'rubyjedi-soap4r', :require => false
 # Add dependencies required to use your gem here.
 # Example:
 #   gem "activesupport", ">= 2.3.5"
@@ -9,6 +9,6 @@ gem 'soap4r', '~>1.5.8', :require => false
 group :development do
   gem "shoulda", ">= 0"
   gem "bundler", "~> 1.0.0"
-  gem "jeweler", "~> 1.5.2"
+  gem "jeweler", "~> 1.6.0"
   gem "rcov", ">= 0"
 end
